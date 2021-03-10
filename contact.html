@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="contact-form row">
+		<div class="contact-form__first img-responsive col-md-6 order-md-1 order-lg-1 order-2">
+			<div class="contact-form__info">
+				<div class="contact-form__info__div">
+					<h3 class="contact-form__info__div_h3">Address</h3>
+					<p class="contact-form__info__div_p1">Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+				</div>
+				<div class="contact-form__info__div">
+					<h3 class="contact-form__info__div_h3">Lets Talk</h3>
+					<p class="contact-form__info__div_p">+1 800 1236879</p>
+				</div>
+				<div class="contact-form__info__div">
+					<h3 class="contact-form__info__div_h3">General Support</h3>
+					<p class="contact-form__info__div_p">contact@example.com</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="contact-form__second col-md-6 order-md-2 order-lg-2 order-1">
+			<h2 class="contact-form__second__h2">Send Us A Message</h2>
+			<form class="form">
+				<div class="form-group row">
+					<label class="form-group__label col-md-12">Tell us your name*</label>
+					<input class="form-group__input col" type="text" id="name-input" placeholder="First name" required="">
+					<input class="form-group__input col" type="text" id="name-input" placeholder="Last name" required="">
+				</div>
+				<div class="form-group">
+					<label class="form-group__label row" for="email-input">Enter your email</label>
+					<input class="form-group__input col" id="email-input" type="text" placeholder="Eg. example@email.com" required="">
+				</div>
+				<div class="form-group">
+					<label class="form-group__label row" for="password-input">Enter phone number</label>
+					<input class="form-group__input col" id="phone-input" type="text" placeholder="Eg. +1800 000000 " required="">
+				</div>
+				<div class="form-group">
+					<label class="form-group__label row" for="message-textarea">Message</label>
+					<textarea class="form-group__textarea col" id="message-textarea" placeholder="Write us a message"></textarea>
+				</div>
+				<button class="form__btn btn btn-block">Send message</button>
+			</form>
+		</div>		
+	</div>
+</body>
+</html>
